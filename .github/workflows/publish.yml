@@ -26,7 +26,7 @@ password: ${{ secrets.GITHUB_TOKEN }}
 
 - name: Build the hello-docker Docker image
 
-run: |
+run:
 
        docker build . --tag ghcr.io/chrischivlog/Docker-test:latest
 
